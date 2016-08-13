@@ -8,9 +8,9 @@
 ; already begins with "not", return the string unchanged.
 
 (defn notString [word] (str "Example of Not String  --> "
-                       (if (str/starts-with? word "not")
-                       (str word)
-                       (str "not " word))))
+                          (if (str/starts-with? word "not")
+                          (str word)
+                          (str "not " word))))
 
 
 ;Missing Character -
@@ -42,6 +42,20 @@
                             (str "Example of Front Three-> " word)
                             (str "Example of Front Three-> " front front front)))
 
+;Back Around
+;Given a string, take the last character and return a new string
+;with the last character added at the front and back,
+;so "cat" yields "tcatt". The original string will be length 1 or more.
+
+(defn backAround [word] (def lastChar (subs word (- (count word) 1)))
+                        (str "Example of Back Around --> " lastChar word lastChar))
+
+;Front 22
+;Given a string, take the first 2 characters and return the string
+;with the 2 characters added at both the front and back, so "kitten" yields"kikittenki". If the string length is less than 2, use whatever characters are there.
+
+(defn front22 [word] (def frontdeuce (subs word 0,2))
+                     (str "Example of Front 22 --> " frontdeuce word frontdeuce))
 
 (defn -main []
   (println (notString "a big deal"))
@@ -73,7 +87,26 @@
   (println (frontThree "abc"))
   (println (frontThree "helium"))
   (println (frontThree "baloon"))
-  (println (frontThree "")))
+  (println (frontThree "heavy"))
+  (println)
+
+  (println (backAround "lady"))
+  (println (backAround "cat"))
+  (println (backAround "hello"))
+  (println (backAround "vericose"))
+  (println (backAround "a"))
+  (println (backAround "moody"))
+  (println)
+
+  (println (front22 "follow"))
+  (println (front22 "kitten"))
+  (println (front22 "ha"))
+  (println (front22 "abc"))
+  (println (front22 "shadow"))
+  (println (front22 "million"))
+  (println))
+
+
 
 
 (-main)
