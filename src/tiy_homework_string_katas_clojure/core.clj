@@ -57,6 +57,28 @@
 (defn front22 [word] (def frontdeuce (subs word 0,2))
                      (str "Example of Front 22 --> " frontdeuce word frontdeuce))
 
+;Delete Del
+;Given a string, if the string "del" appears starting at index 1,
+;return a string where that "del" has been deleted. Otherwise, return the string unchanged.
+
+(defn delDel [word] (if (= (subs word 1, 4) "del")
+                      (str "Example Delete Del --> "(subs word 0, 1) (subs word 4))
+                      (str "Example Delete Del --> " word)))
+
+;Start Oz
+;Given a string, return a string made of the first 2 characters (if present),
+;however include first char only if it is 'o' and include the second only if it is 'z',
+;so "ozymandias" yields "oz".
+
+(defn startOz [word] (cond
+                          (and (= (subs word 0,1) "o") (=(subs word 1,2) "z")) (str "Example of startOz --> " (subs word 0,2))
+                          (= (subs word 0,1) "o") (str "Example of startOz --> " (subs word 0,1))
+                          (= (subs word 1,2) "z") (str "Example of startOz --> " (subs word 1,2))
+                          :else (str "Example of startOz -->          ")))
+
+
+
+
 (defn -main []
   (println (notString "a big deal"))
   (println (notString "nottingham"))
@@ -77,7 +99,7 @@
   (println (frontBack "reverse"))
   (println (frontBack "hello"))
   (println (frontBack "code"))
-  ;(println (frontBack "A"))
+  ;(println (frontBack "a"))
   (println (frontBack "ab"))
   (println (frontBack "hotblooded"))
   (println)
@@ -104,9 +126,21 @@
   (println (front22 "abc"))
   (println (front22 "shadow"))
   (println (front22 "million"))
-  (println))
+  (println)
 
+  (println (delDel "adele"))
+  (println (delDel "hdelello"))
+  (println (delDel "adelbc"))
+  (println (delDel "ideal"))
+  (println (delDel "pdelarty"))
+  (println (delDel "spdelecial"))
+  (println)
 
-
+  (println (startOz "ozymandias"))
+  (println (startOz "bzoo"))
+  (println (startOz "oxxx"))
+  (println (startOz "tropical"))
+  (println (startOz "wo"))
+  (println (startOz "zolies")))
 
 (-main)
