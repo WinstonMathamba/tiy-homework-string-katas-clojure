@@ -52,7 +52,8 @@
 
 ;Front 22
 ;Given a string, take the first 2 characters and return the string
-;with the 2 characters added at both the front and back, so "kitten" yields"kikittenki". If the string length is less than 2, use whatever characters are there.
+;with the 2 characters added at both the front and back, so "kitten" yields"kikittenki".
+;If the string length is less than 2, use whatever characters are there.
 
 (defn front22 [word] (def frontdeuce (subs word 0,2))
                      (str "Example of Front 22 --> " frontdeuce word frontdeuce))
@@ -76,6 +77,13 @@
                           (= (subs word 1,2) "z") (str "Example of startOz --> " (subs word 1,2))
                           :else (str "Example of startOz -->          ")))
 
+;End Up
+;Given a string, return a new string where the last 3 characters are now in upper case.
+;If the string has less than 3 characters, uppercase whatever is there.
+
+(defn endUp [word] (def last3 (subs word (- (count word) 3)))
+                   (def front (subs word 0, (- (count word) 3)))
+                        (str "Example of End Up --> " front (str/upper-case last3)))
 
 
 
@@ -141,6 +149,14 @@
   (println (startOz "oxxx"))
   (println (startOz "tropical"))
   (println (startOz "wo"))
-  (println (startOz "zolies")))
+  (println (startOz "zolies"))
+  (println)
+
+  (println (endUp "hello"))
+  (println (endUp "hi there"))
+  (println (endUp "so tired"))
+  (println (endUp "won't work"))
+  (println (endUp "good enough"))
+  (println (endUp "betten than")))
 
 (-main)

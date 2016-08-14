@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a0d892-face-460e-bbf1-8838dc3a4ded" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj" afterPath="$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj" />
     </list>
@@ -29,8 +28,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="143" column="27" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
+            <state relative-caret-position="412">
+              <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -148,7 +147,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="ReplState" timestamp="1471132981629">{:repl-history {:ide [], :local [&quot;(def word \&quot;nottingham\&quot;)&quot; &quot;(word)&quot; &quot;(print word)&quot; &quot;(require '[clojure.string :as str])&quot; &quot;()&quot; &quot;(str word)&quot; &quot;(str/starts-with? \&quot;not\&quot; word)&quot; &quot;(str/starts-with? word \&quot;not\&quot;)&quot; &quot;(str \&quot;i live in\&quot; word)&quot; &quot;(-main)&quot; &quot;(defn missiingCharacter [word, om] (str \&quot;Eample of Missing Character --&gt; \&quot;\n                                        (def front (subs word 0 om))\n                                        (def back (subs word (+ om 1)))\n                                        (str front back)))&quot; &quot;(def word \&quot;reverse\&quot;)&quot; &quot;(def first (sub word 0,1))&quot; &quot;(def one (sub word 0,1))&quot; &quot;(def one (subs word 0,1))&quot; &quot;one&quot; &quot;(def last (subs (count word)))&quot; &quot;(def final (subs (count word)))&quot; &quot;(def final (subs word (count word)))&quot; &quot;(def final (subs word (-(count word)1)))&quot; &quot;(def letter \&quot;a\&quot;)&quot; &quot;(= (count letter) 0)&quot; &quot;(= (count letter) 1)&quot; &quot;(= (count letter) -1)&quot; &quot;(count letter)&quot; &quot;(if (= (count letter)1)(str \&quot;correct\&quot;)(str \&quot;not correct\&quot;))&quot; &quot;(def letter2 \&quot;sol\&quot;)&quot; &quot;(count letter2)&quot; &quot;(def front (subs 0,3))\n(if (= (count word) 3)\n  (str word) (str front front front))&quot; &quot;(def front (subs letter 0,3))\n(if (= (count letter) 3)\n  (str letter) (str front front front))&quot; &quot;(def word \&quot;Leinigen\&quot;)&quot; &quot;(def front (subs word 0,3))\n(if (= (count word) 3)\n  (str word) (str front front front))&quot; &quot;(= (count word) \&quot;n\&quot;)&quot; &quot;(= \&quot;n\&quot; (count word))&quot; &quot;(count word)&quot; &quot;(count word -1)&quot; &quot;(- (count word)1)&quot; &quot;(= (- (count word)1) \&quot;n\&quot;)&quot; &quot;(= \&quot;n\&quot; (- (count word)1))&quot; &quot;(def lastChar (subs word (- (count word) 1)))&quot; &quot;lastChar&quot; &quot;word&quot; &quot;letter&quot; &quot;(if (&lt;= (count letter) 1)\n  (str \&quot;Example of Front Back --&gt; \&quot; letter)\n  (str \&quot;Example of Front Back --&gt; \&quot; final mid one))&quot; &quot;(def one (subs word 0, 1))\n(def mid (subs word 1, (- (count word) 1)))\n(def final (subs word (- (count word) 1)))\n(if (&lt;= (count word) 1)\n  (str \&quot;Example of Front Back --&gt; \&quot; word)\n  (str \&quot;Example of Front Back --&gt; \&quot; final mid one))&quot; &quot;(frontBack \&quot;a\&quot;)&quot; &quot;(frontBack \&quot;b\&quot;)&quot; &quot;(frontBack \&quot;ba\&quot;)&quot; &quot;mid&quot; &quot;final&quot; &quot;letter2&quot; &quot;word &quot; &quot;keyword&quot; &quot;(def test \&quot;swagging\&quot;)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1471135899758">{:repl-history {:ide [], :local [&quot;(def word \&quot;nottingham\&quot;)&quot; &quot;(word)&quot; &quot;(print word)&quot; &quot;(require '[clojure.string :as str])&quot; &quot;()&quot; &quot;(str word)&quot; &quot;(str/starts-with? \&quot;not\&quot; word)&quot; &quot;(str/starts-with? word \&quot;not\&quot;)&quot; &quot;(str \&quot;i live in\&quot; word)&quot; &quot;(-main)&quot; &quot;(defn missiingCharacter [word, om] (str \&quot;Eample of Missing Character --&gt; \&quot;\n                                        (def front (subs word 0 om))\n                                        (def back (subs word (+ om 1)))\n                                        (str front back)))&quot; &quot;(def word \&quot;reverse\&quot;)&quot; &quot;(def first (sub word 0,1))&quot; &quot;(def one (sub word 0,1))&quot; &quot;(def one (subs word 0,1))&quot; &quot;one&quot; &quot;(def last (subs (count word)))&quot; &quot;(def final (subs (count word)))&quot; &quot;(def final (subs word (count word)))&quot; &quot;(def final (subs word (-(count word)1)))&quot; &quot;(def letter \&quot;a\&quot;)&quot; &quot;(= (count letter) 0)&quot; &quot;(= (count letter) 1)&quot; &quot;(= (count letter) -1)&quot; &quot;(count letter)&quot; &quot;(if (= (count letter)1)(str \&quot;correct\&quot;)(str \&quot;not correct\&quot;))&quot; &quot;(def letter2 \&quot;sol\&quot;)&quot; &quot;(count letter2)&quot; &quot;(def front (subs 0,3))\n(if (= (count word) 3)\n  (str word) (str front front front))&quot; &quot;(def front (subs letter 0,3))\n(if (= (count letter) 3)\n  (str letter) (str front front front))&quot; &quot;(def word \&quot;Leinigen\&quot;)&quot; &quot;(def front (subs word 0,3))\n(if (= (count word) 3)\n  (str word) (str front front front))&quot; &quot;(= (count word) \&quot;n\&quot;)&quot; &quot;(= \&quot;n\&quot; (count word))&quot; &quot;(count word)&quot; &quot;(count word -1)&quot; &quot;(- (count word)1)&quot; &quot;(= (- (count word)1) \&quot;n\&quot;)&quot; &quot;(= \&quot;n\&quot; (- (count word)1))&quot; &quot;(def lastChar (subs word (- (count word) 1)))&quot; &quot;lastChar&quot; &quot;word&quot; &quot;letter&quot; &quot;(if (&lt;= (count letter) 1)\n  (str \&quot;Example of Front Back --&gt; \&quot; letter)\n  (str \&quot;Example of Front Back --&gt; \&quot; final mid one))&quot; &quot;(def one (subs word 0, 1))\n(def mid (subs word 1, (- (count word) 1)))\n(def final (subs word (- (count word) 1)))\n(if (&lt;= (count word) 1)\n  (str \&quot;Example of Front Back --&gt; \&quot; word)\n  (str \&quot;Example of Front Back --&gt; \&quot; final mid one))&quot; &quot;(frontBack \&quot;a\&quot;)&quot; &quot;(frontBack \&quot;b\&quot;)&quot; &quot;(frontBack \&quot;ba\&quot;)&quot; &quot;mid&quot; &quot;final&quot; &quot;letter2&quot; &quot;word &quot; &quot;keyword&quot; &quot;(def test \&quot;swagging\&quot;)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure Application.core">
     <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="tiy-homework-string-katas-clojure" />
@@ -632,12 +631,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471029792247</updated>
-      <workItem from="1471029793481" duration="22542000" />
+      <workItem from="1471029793481" duration="25353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22542000" />
+    <option name="totallyTimeSpent" value="25353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -651,7 +650,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -688,7 +687,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj</url>
-          <line>63</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -749,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="143" column="27" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
+        <state relative-caret-position="412">
+          <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
           <folding />
         </state>
       </provider>
