@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2a0d892-face-460e-bbf1-8838dc3a4ded" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj" afterPath="$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj" />
     </list>
     <ignored path="tiy-homework-string-katas-clojure.iws" />
@@ -24,12 +25,12 @@
     <favorites_list name="tiy-homework-string-katas-clojure" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
+            <state relative-caret-position="1455">
+              <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -70,8 +71,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -84,7 +86,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -97,57 +99,15 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiy-homework-string-katas-clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiy-homework-string-katas-clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiy-homework-string-katas-clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiy-homework-string-katas-clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiy-homework-string-katas-clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiy_homework_string_katas_clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1471135899758">{:repl-history {:ide [], :local [&quot;(def word \&quot;nottingham\&quot;)&quot; &quot;(word)&quot; &quot;(print word)&quot; &quot;(require '[clojure.string :as str])&quot; &quot;()&quot; &quot;(str word)&quot; &quot;(str/starts-with? \&quot;not\&quot; word)&quot; &quot;(str/starts-with? word \&quot;not\&quot;)&quot; &quot;(str \&quot;i live in\&quot; word)&quot; &quot;(-main)&quot; &quot;(defn missiingCharacter [word, om] (str \&quot;Eample of Missing Character --&gt; \&quot;\n                                        (def front (subs word 0 om))\n                                        (def back (subs word (+ om 1)))\n                                        (str front back)))&quot; &quot;(def word \&quot;reverse\&quot;)&quot; &quot;(def first (sub word 0,1))&quot; &quot;(def one (sub word 0,1))&quot; &quot;(def one (subs word 0,1))&quot; &quot;one&quot; &quot;(def last (subs (count word)))&quot; &quot;(def final (subs (count word)))&quot; &quot;(def final (subs word (count word)))&quot; &quot;(def final (subs word (-(count word)1)))&quot; &quot;(def letter \&quot;a\&quot;)&quot; &quot;(= (count letter) 0)&quot; &quot;(= (count letter) 1)&quot; &quot;(= (count letter) -1)&quot; &quot;(count letter)&quot; &quot;(if (= (count letter)1)(str \&quot;correct\&quot;)(str \&quot;not correct\&quot;))&quot; &quot;(def letter2 \&quot;sol\&quot;)&quot; &quot;(count letter2)&quot; &quot;(def front (subs 0,3))\n(if (= (count word) 3)\n  (str word) (str front front front))&quot; &quot;(def front (subs letter 0,3))\n(if (= (count letter) 3)\n  (str letter) (str front front front))&quot; &quot;(def word \&quot;Leinigen\&quot;)&quot; &quot;(def front (subs word 0,3))\n(if (= (count word) 3)\n  (str word) (str front front front))&quot; &quot;(= (count word) \&quot;n\&quot;)&quot; &quot;(= \&quot;n\&quot; (count word))&quot; &quot;(count word)&quot; &quot;(count word -1)&quot; &quot;(- (count word)1)&quot; &quot;(= (- (count word)1) \&quot;n\&quot;)&quot; &quot;(= \&quot;n\&quot; (- (count word)1))&quot; &quot;(def lastChar (subs word (- (count word) 1)))&quot; &quot;lastChar&quot; &quot;word&quot; &quot;letter&quot; &quot;(if (&lt;= (count letter) 1)\n  (str \&quot;Example of Front Back --&gt; \&quot; letter)\n  (str \&quot;Example of Front Back --&gt; \&quot; final mid one))&quot; &quot;(def one (subs word 0, 1))\n(def mid (subs word 1, (- (count word) 1)))\n(def final (subs word (- (count word) 1)))\n(if (&lt;= (count word) 1)\n  (str \&quot;Example of Front Back --&gt; \&quot; word)\n  (str \&quot;Example of Front Back --&gt; \&quot; final mid one))&quot; &quot;(frontBack \&quot;a\&quot;)&quot; &quot;(frontBack \&quot;b\&quot;)&quot; &quot;(frontBack \&quot;ba\&quot;)&quot; &quot;mid&quot; &quot;final&quot; &quot;letter2&quot; &quot;word &quot; &quot;keyword&quot; &quot;(def test \&quot;swagging\&quot;)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1471184270889">{:repl-history {:ide [], :local [&quot;(foo)&quot; &quot;(str/reverse \&quot;ereh saw guoD\&quot;)&quot; &quot;(story)&quot; &quot;(str/upper-case story)&quot; &quot;(str/lower-case story)&quot; &quot;(str/trim story)&quot; &quot;(str/ends-with? \&quot;starvation.\&quot; story)&quot; &quot;(str/ends-with? \&quot;starvation\&quot; \&quot;starvation\&quot;)&quot; &quot;(println story)&quot; &quot;(print story)&quot; &quot;(str story)&quot; &quot;(str/ends-with? \&quot;starvation\&quot; story)&quot; &quot;(str/ends-with? story \&quot;starvation.\&quot;)&quot; &quot;(echo [\&quot;hello\&quot;, 10, \&quot;\&quot;])&quot; &quot;(echo [\&quot;hello\&quot;, 10, \&quot; \&quot;])&quot; &quot;(echo \&quot;Hello!\&quot; 10 \&quot;\&quot;)\n&quot; &quot;clojure.tools.nrepl.middleware.interruptible-eval&quot; &quot;(test)&quot; &quot;test  &quot; &quot;(.remove (subs test 1,4) )&quot; &quot;(def word \&quot;nottingham\&quot;)&quot; &quot;(word)&quot; &quot;(print word)&quot; &quot;()&quot; &quot;(str word)&quot; &quot;(str/starts-with? \&quot;not\&quot; word)&quot; &quot;(str/starts-with? word \&quot;not\&quot;)&quot; &quot;(str \&quot;i live in\&quot; word)&quot; &quot;(-main)&quot; &quot;(defn missiingCharacter [word, om] (str \&quot;Eample of Missing Character --&gt; \&quot;\n                                        (def front (subs word 0 om))\n                                        (def back (subs word (+ om 1)))\n                                        (str front back)))&quot; &quot;(def word \&quot;reverse\&quot;)&quot; &quot;(def first (sub word 0,1))&quot; &quot;(def one (sub word 0,1))&quot; &quot;(def one (subs word 0,1))&quot; &quot;one&quot; &quot;(def last (subs (count word)))&quot; &quot;(def final (subs (count word)))&quot; &quot;(def final (subs word (count word)))&quot; &quot;(def final (subs word (-(count word)1)))&quot; &quot;(def letter \&quot;a\&quot;)&quot; &quot;(= (count letter) 0)&quot; &quot;(= (count letter) 1)&quot; &quot;(= (count letter) -1)&quot; &quot;(count letter)&quot; &quot;(if (= (count letter)1)(str \&quot;correct\&quot;)(str \&quot;not correct\&quot;))&quot; &quot;(def letter2 \&quot;sol\&quot;)&quot; &quot;(count letter2)&quot; &quot;(def front (subs 0,3))\n(if (= (count word) 3)\n  (str word) (str front front front))&quot; &quot;(def front (subs letter 0,3))\n(if (= (count letter) 3)\n  (str letter) (str front front front))&quot; &quot;(def word \&quot;Leinigen\&quot;)&quot; &quot;(def front (subs word 0,3))\n(if (= (count word) 3)\n  (str word) (str front front front))&quot; &quot;(= (count word) \&quot;n\&quot;)&quot; &quot;(= \&quot;n\&quot; (count word))&quot; &quot;(count word)&quot; &quot;(count word -1)&quot; &quot;(- (count word)1)&quot; &quot;(= (- (count word)1) \&quot;n\&quot;)&quot; &quot;(= \&quot;n\&quot; (- (count word)1))&quot; &quot;(def lastChar (subs word (- (count word) 1)))&quot; &quot;lastChar&quot; &quot;letter&quot; &quot;(if (&lt;= (count letter) 1)\n  (str \&quot;Example of Front Back --&gt; \&quot; letter)\n  (str \&quot;Example of Front Back --&gt; \&quot; final mid one))&quot; &quot;(def one (subs word 0, 1))\n(def mid (subs word 1, (- (count word) 1)))\n(def final (subs word (- (count word) 1)))\n(if (&lt;= (count word) 1)\n  (str \&quot;Example of Front Back --&gt; \&quot; word)\n  (str \&quot;Example of Front Back --&gt; \&quot; final mid one))&quot; &quot;(frontBack \&quot;a\&quot;)&quot; &quot;(frontBack \&quot;b\&quot;)&quot; &quot;(frontBack \&quot;ba\&quot;)&quot; &quot;mid&quot; &quot;final&quot; &quot;letter2&quot; &quot;word &quot; &quot;keyword&quot; &quot;(def test \&quot;swagging\&quot;)&quot; &quot;(def silly \&quot;silly\&quot;)&quot; &quot;silly&quot; &quot;(def word \&quot;silly\&quot;)&quot; &quot;word&quot; &quot;(require '[clojure.string :as str])&quot; &quot;(def last3 (subs word (- (count word) 3)))\n(def front (subs word 0,(- (count word) 3)))\n(if (&lt; (subs front) 3)\n  (str/upper-case front)\n  (str \&quot;Example of End Up --&gt; \&quot; front (str/upper-case last3)))&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure Application.core">
     <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="tiy-homework-string-katas-clojure" />
@@ -403,6 +363,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -571,6 +532,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -631,44 +598,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471029792247</updated>
-      <workItem from="1471029793481" duration="25353000" />
+      <workItem from="1471029793481" duration="25461000" />
+      <workItem from="1471371555147" duration="3469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25353000" />
+    <option name="totallyTimeSpent" value="28930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3620332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3759036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -687,7 +655,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj</url>
-          <line>64</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -701,11 +669,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/lang/Compiler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="178" column="85" selection-start-line="178" selection-start-column="85" selection-end-line="178" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,9 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-          <folding>
-            <element signature="e#9368#9369#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,17 +718,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="415" column="0" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
-          <folding>
-            <element signature="e#7765#7766#0" expanded="false" />
-            <element signature="e#7802#7803#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
+        <state relative-caret-position="1455">
+          <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
           <folding />
         </state>
       </provider>
