@@ -17,8 +17,8 @@
 ;where the character at the specified index has been removed.
 ;The specified index will be a valid index of in the original string.
 
-(defn missiing-character [word, om] (let [front (subs word 0 om)
-                                          back (subs word (+ om 1))]
+(defn missiing-character [word, i] (let [front (subs word 0 i)
+                                          back (subs word (+ i 1))]
                                           (str front back)))
 
 ;Front Back -
